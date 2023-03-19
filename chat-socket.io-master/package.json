@@ -1,7 +1,7 @@
 {
   "name": "chat-websocket",
   "version": "1.0.0",
-  "description": "",
+  "description": "We are going to develop a chat application using Express, Websockets. Tough you can use plain websockets but we would be using a library called Socket.io - which is wrapper around Websockets, its super easy to use and provies a fallback to xhr requests until the websocket connection is established.",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "socket.io": "^2.3.0"
+    "express": "^4.18.2",
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.21"
   }
 }
